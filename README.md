@@ -1,11 +1,14 @@
 ThoughtWorks Events Generator
 =============================
 
-Install polygen:
+1) Clone this repository
 
+2) Install polygen
+```
  $ sudo apt-get install polygen
+```
 
-Generate random events! :)
-
- for i in {1..20}; do polyrun tw-events.grm; done
-
+3) Generate random events! :)
+```
+ $ for i in {1..20}; do polyrun tw-events.grm; done
+```
