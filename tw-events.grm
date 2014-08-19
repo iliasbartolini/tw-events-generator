@@ -1,0 +1,22 @@
+
+I ::=   "title:    ThoughtWorks event names generator\n"
+      ^ "author:   Ilias Bartolini\n"
+      ^ "language: english, portuguese, um pouco de tudo\n"
+      ^ "status:   beta\n"
+      ^ "topic:    technology events\n"
+      ^ "audience: usually insane\n"
+      ^ "created:  19/08/2014"
+;
+
+S ::= Adjective Noun | ThW Adjective Noun | ThW Noun Post | Adjective Noun "@"^ThW;
+
+Adjective ::= "Business" | "Disruptive" | "Fast" | "Null" | "Live" | "Quarterly" | "Geek" 
+			| "Potential" | "Winning" | "Agile" | "Unconventional" | "Pioneering" 
+			| "Digital" | "Tech" | "Hack" ;
+            
+Noun ::= "XConf" | "Briefing" | "Night" | "Meeting" | "Meetup" | "Experience" | "Bootcamp"
+			| "Conference" | "Camp" | "Working Group" | "Workshop" | "Café" | "Party" | "Event";
+
+Post ::= "in Technology" | "Challenge" | "Network" | "of Things" | "Radar";
+
+ThW ::= "TW" | "ThoughtWorks" | "The ThoughtWorks";
